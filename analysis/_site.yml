@@ -1,7 +1,7 @@
-name: "spei_kigigak"
+name: Spectacled Eider Kigigak Island Project
 output_dir: ../docs
 navbar:
-  title: "spei_kigigak"
+  title: Spectacled Eider Kigigak Island Project
   left:
   - text: Home
     href: index.html
@@ -9,9 +9,15 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fab fa-github
+    text: Source code
+    href: https://github.com/DJRIZZ/spei_kigigak
 output:
   workflowr::wflow_html:
     toc: yes
-    toc_float: yes
-    theme: cosmo
+    toc_float:
+      collapsed: no
+    theme: flatly
+    code_folding: hide
     highlight: textmate
